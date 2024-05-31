@@ -8,10 +8,12 @@ cd SPO_Task3
 cd backend 
 npm i
 npm run dev
-cd ..
-cd frontend 
-npm i
+```
+This code will first clone the repository into your local machine and then start the backend server.
+To start the frontend go back to the SPO_Task3 directory in a new terminal window and paste the following commands:
+```bash
+cd frontend
+npm i 
 npm run dev
 ```
-This code will first clone the repository into your local machine and then start the backend server followed by the frontend server.
 Backend server will listen on port 8080 and the frontend server will most likely listen on port 3000 if it is available.
